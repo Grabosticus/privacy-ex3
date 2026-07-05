@@ -29,15 +29,6 @@ python -m pip install torch torchvision --index-url https://download.pytorch.org
 python -m pip install click requests tqdm pyspng ninja imageio-ffmpeg psutil scipy pillow imageio "numpy<2"
 
 conda install -y -c nvidia cuda-toolkit=12.8
-
-export CUDA_HOME="$CONDA_PREFIX"
-export PATH="$CUDA_HOME/bin:$PATH"
-```
-
-For RTX 50-series GPUs, also set:
-
-```bash
-export TORCH_CUDA_ARCH_LIST="12.0"
 ```
 
 Check the environment:
@@ -71,9 +62,6 @@ python -m pip install click requests tqdm pyspng ninja imageio-ffmpeg==0.4.3
 python -m pip install numpy==1.21.6 scipy==1.7.3 pillow==9.5.0 psutil==5.9.8 imageio==2.31.2
 
 conda install -c conda-forge cudatoolkit-dev=11.7 -y
-
-export CUDA_HOME="$CONDA_PREFIX"
-export PATH="$CUDA_HOME/bin:$PATH"
 ```
 
 ## Training
