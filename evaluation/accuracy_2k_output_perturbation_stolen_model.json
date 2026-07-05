@@ -1,0 +1,12 @@
+{
+  "snapshot": "training-runs/00012-fake_dataset_output_perturbation_3000_256-mirror-paper256-kimg1000-noaug/network-snapshot-001000.pkl",
+  "reference": {
+    "type": "dataset",
+    "path": "datasets/impressionist_cluster1_256.zip"
+  },
+  "fid": 79.1106157203192,
+  "num_images": 50000,
+  "seed": 0,
+  "truncation_psi": 1.0,
+  "noise_mode": "const"
+}

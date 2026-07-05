@@ -1,0 +1,19 @@
+# Local Codex/session metadata.
+.agents/
+.codex/
+
+# Python/runtime noise.
+__pycache__/
+*.py[cod]
+
+# Generated fake datasets.
+fake_dataset_50000/
+fake_dataset_output_perturbation_3000/
+fake_dataset_output_perturbation_50000/
+fake_dataset_output_perturbation/
+
+# Dataset artifacts: keep only the real StyleGAN2-ADA ZIP via Git LFS.
+datasets/*
+!datasets/
+!datasets/impressionist_cluster1_256.zip
+
